@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    width:100%;
+    position:absolute;
+    z-index:1;
+    text-align:center;
+}
+.logo{}
+.logo a{
+    display:block;
+    height:100%;
+}
+.logo img{
+    width:46px;
+}
+.gnb{
+    position:absolute;
+    top:0;
+    margin-left:8px;
+}
+.gnb span{
+    width:25px;
+    height:2px;
+    background:#fff;
+    text-indent:-9999px;
+    display:block;
+}
+.gnb a::before,.gnb::after{
+    content:"";
+    display:block;
+    width:25px;
+    height:2px;
+    background:#fff;
+    margin:8px 0;
+}
+
+/*푸터*/
+#footer{background:#e1e1e1;}
+.fTxt{
+    padding:30px 20px;
+    font-size:11px;
+    color:#A3A3A3;
+}
+.fTxt p{margin-top:5px;}
+.fTop{}
+.fTop a{color:#A3A3A3;}
+.fTop a span{margin-right:5px;}
+.fTop::after{
+    content:"";
+    display:block;
+    width:30px;
+    height:2px;
+    background:#A3A3A3;
+    margin-top:20px;
+}
+.fInfo{margin-top:20px;}
+.fInfo p{}
+.fTxt>p{margin-top:20px;}
