@@ -15,7 +15,12 @@
         <link rel="stylesheet" type="text/css" href="css/default.css">
         <link rel="stylesheet" type="text/css" href="css/include.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <link rel="stylesheet" href="css/slick.css" type="text/css">       
+        
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>        
+        <script type="text/javascript" src="js/slick.min.js"></script>        
+        <script type="text/javascript" src="js/main.js"></script>
+        
     </head>
     <body>
     <!--전체-->
@@ -23,11 +28,20 @@
         <!--헤더-->
         <header id="header">
             <h1 class="logo"><a href="#"><img src="images/logo.png"></a></h1>
-            <div class="gnb">
-                <a href="#">
-                    <span>메뉴</span>
-                </a>
-            </div>
+            <div class="panel">
+                    <p><span>메뉴</span></p>
+            </div>                
+            <!--패널전체-->
+            <div class="panelWrap">
+                <div class="panelBg"></div>                
+                <ul class="panelMenu">
+                    <li><a href="#">신상품</a></li>
+                    <li><a href="#">삼립뉴스</a></li>
+                    <li><a href="#">레시피북</a></li>
+                    <li><a href="#">매장찾기</a></li>
+                </ul>
+            </div>      
+            <!--패널전체--> 
         </header>
         <!--헤더-->
         
@@ -102,7 +116,9 @@
                     <!--서브타이틀-->
 
                     <!--유튜브-->
-                    <div class="youtube">유튜브영역</div>
+                    <div class="videoWrap">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AXsAphwbZrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+                    </div>
                     <!--유튜브-->
 
                     <!--슬라이드버튼-->
