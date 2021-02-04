@@ -4,7 +4,7 @@ $(document).ready(function(){
     
     $('.panel').click(function(){
         $('.panelWrap').fadeIn();
-        $('.panelMenu').css('width','50%');
+        $('.panelMenu').css('width','70%');
     })
     
     $('.panelBg').click(function(){
